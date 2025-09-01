@@ -11,10 +11,5 @@ services:
     image: grafana/grafana:latest
     ports:
       - "3003:3000"
-    volumes:
-      - ./monitoring/grafana/provisioning:/etc/grafana/provisioning
-      - ./monitoring/grafana/dashboards:/var/lib/grafana/dashboards
     environment:
       - GF_SECURITY_ADMIN_PASSWORD=greatsky123
-      - GF_INSTALL_PLUGINS=
-    user: "0"
