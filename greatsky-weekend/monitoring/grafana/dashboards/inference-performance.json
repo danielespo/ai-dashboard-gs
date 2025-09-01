@@ -1,0 +1,39 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "GreatSky Inference Performance",
+    "tags": ["greatsky", "ai", "trading"],
+    "timezone": "browser",
+    "panels": [
+      {
+        "id": 1,
+        "title": "Inference Latency (μs)",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "inference_latency_microseconds",
+            "refId": "A"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "µs",
+            "min": 0,
+            "max": 1000
+          }
+        },
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    ],
+    "time": {
+      "from": "now-5m",
+      "to": "now"
+    },
+    "refresh": "5s"
+  }
+}
