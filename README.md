@@ -1,6 +1,6 @@
-# GreatSky AI Dashboard - Weekend Prototype
+# GreatSky weekend dashboard
 
-A minimal monitoring dashboard prototype showcasing AI inference performance metrics, trading signals, and CNN-to-superconducting circuit mapping visualizations.
+A minimal monitoring dashboard prototype with AI inference performance metrics, trading signals, and CNN-to-superconducting circuit mapping visualizations.
 
 ## Quick Start
 
@@ -17,32 +17,30 @@ open http://localhost:3001  # Grafana (admin/greatsky123)
 open http://localhost:9090  # Prometheus
 ```
 
-## What This Demonstrates
+## What this shows
 
-- **Low latency inference monitoring** (microsecond precision)
+- **Monitor low latency inference**
 - **Real-time trading signal visualization** 
-- **CNN weight-to-SSC mapping progress**
-- **High-frequency trading performance metrics**
+- **CNN weight-to-SSC mapping mockup**
 
 ## Architecture
 
 ```
-Prometheus → Grafana → Custom Dashboards
+Prometheus → Grafana → Dashboards
      ↑
 Fake metrics generators (simulating ML inference)
 ```
 
 ## Dashboards
 
-1. **Inference Performance** - Latency histograms, throughput gauges
-2. **Trading Metrics** - Signal processing speed, PnL charts  
-3. **Model Health** - Accuracy drift, memory usage
-4. **Circuit Mapping** - Superconducting parameter translation
+1. **Inference lerformance** - Latency, throughput
+2. **Trading mockup** - Signal processing speed, PnL charts 
+3. **Model health** - Accuracy drift, memory usage
 
 ## Development
 
 ```bash
-# Stop services
+# Stop
 docker-compose down
 
 # View logs
@@ -55,8 +53,8 @@ docker-compose up --build -d
 ## Tech Stack
 
 - **Monitoring**: Prometheus + Grafana
-- **Deployment**: Docker Compose
+- **Deployment**: Docker
 - **Focus**: Real-time performance visualization for HFT AI systems
 
 
-Built for GreatSky, superconducting neural networks as a plug-and-play replacement of low latency FPGA DSP and algorithmic trading pipelines.
+Built for GreatSky: Hardware to enable intelligence at the boundaries of physics.
