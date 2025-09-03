@@ -1,4 +1,4 @@
-# GreatSky weekend dashboard
+# Weekend dashboard
 
 A minimal monitoring dashboard prototype with AI inference performance metrics, trading signals, and CNN-to-superconducting circuit mapping visualizations.
 
@@ -55,6 +55,3 @@ docker-compose up --build -d
 - **Monitoring**: Prometheus + Grafana
 - **Deployment**: Docker
 - **Focus**: Real-time performance visualization for HFT AI systems
-
-
-Built for GreatSky: Hardware to enable intelligence at the boundaries of physics.
