@@ -1,12 +1,12 @@
 # Weekend dashboard
 
-A minimal monitoring dashboard prototype with AI inference performance metrics, trading signals, and CNN-to-superconducting circuit mapping visualizations.
+A minimal monitoring dashboard prototype with inference performance metrics, trading signals, and a CNN-to-superconducting circuit mapping mockup.
 
 ## Quick Start
 
 ```bash
 # Clone and setup
-git clone <your-repo>
+git clone https://github.com/danielespo/ai-dashboard-gs
 cd greatsky-weekend
 
 # Start monitoring stack
