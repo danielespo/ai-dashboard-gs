@@ -13,7 +13,7 @@ cd greatsky-weekend
 docker-compose up -d
 
 # Access dashboards
-open http://localhost:3001  # Grafana (admin/greatsky123)
+open http://localhost:3001  # Grafana (admin/GS123)
 open http://localhost:9090  # Prometheus
 ```
 
