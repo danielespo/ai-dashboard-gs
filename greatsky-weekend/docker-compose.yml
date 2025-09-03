@@ -12,4 +12,4 @@ services:
     ports:
       - "3003:3000"
     environment:
-      - GF_SECURITY_ADMIN_PASSWORD=greatsky123
+      - GF_SECURITY_ADMIN_PASSWORD=GS123
